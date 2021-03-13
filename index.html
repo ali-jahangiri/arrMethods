@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div id="controllers" class="col-md-6 text-center">
+          <button id="addUser">add new user ✨</button>
+          <button disabled="true" id="doubleMoney">double user money 🤑</button>
+          <button disabled="true" id="onlyMillionaires">
+            show only millionaires 💸
+          </button>
+          <button disabled="true" id="reaches">show the Richest user 💎</button>
+          <button disabled="true" id="calcAllMoney">
+            calculate entire money 🧮
+          </button>
+        </div>
+        <div class="col-md-6">
+          <p class="alluser__header">All users : <span id="total"></span></p>
+          <div id="allUserContainer"></div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
